@@ -1,0 +1,62 @@
+Action Items for Incident Management Agent
+
+1. Internal Collaboration & Requirements Gathering
+Collaborate with the Support Team to understand existing processes and avoid duplicated efforts.
+
+Collect pain points and suggestions from all stakeholders (e.g., Rahul, Abhishek, Katia).
+
+2. Automation of Manual Tasks
+Automate repetitive incident management tasks, including:
+
+Updating the status page.
+
+Creating incident channels.
+
+Posting updates to internal channels (field teams, support, etc.).
+
+Generating RCAs from Slack channels and tickets.
+
+Creating incident tickets and post-mortem items.
+
+Compiling lists of impacted users.
+
+3. Intelligent Incident Analysis
+Enable the agent to:
+
+Analyze incoming tickets (e.g., from Freshdesk) and suggest if they are likely incidents.
+
+Correlate incidents with recent PRs, deployments, and change management tickets.
+
+Check if customer notifications and change management processes were followed.
+
+Suggest root causes by referencing similar past incidents.
+
+Propose and, if approved, automatically create incident channels and trigger workflows.
+
+4. Knowledge Base & Historical Context
+Build or integrate a knowledge base that:
+
+Surfaces similar past incidents and their resolutions.
+
+Provides context and troubleshooting steps for recurring issues.
+
+Leverages logs (Sentry, Kibana), metrics (Grafana), and alert channels for root cause analysis.
+
+5. Monitoring & Proactive Detection
+Monitor performance and alert channels to:
+
+Detect anomalies or issues before customers report them.
+
+Aggregate alerts from various channels and highlight those needing attention.
+
+Reduce the number of incidents reported by customers by catching issues early.
+
+Next Steps
+
+Team to populate the document with ideas, pain points, and desired features.
+
+Clarify demo/presentation expectations for WOW
+
+Aim for an MVP
+
+Plan for incremental improvements post-MVP
